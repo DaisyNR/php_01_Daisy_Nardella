@@ -1,5 +1,19 @@
 <?php
 
+// Quarto Selfwork
+$users = [
+  ['name' => 'Davide', 'surname' => 'Cariola', 'gender' => 'NB'],
+];
+
+foreach($users as $user){
+    if ($user['gender'] == 'NB'){
+        echo "Buongiorno ".$user['name']." ".$user['surname']."\n";
+    }
+}
+
+// “Buongiorno Sig. Nome Cognome” o “Buongiorno Sig.ra Nome Cognome” o “Buongiorno Nome Cognome” a seconda del genere
+
+
 // Terzo Selfwork
 $words1 = [
   'vostro',
